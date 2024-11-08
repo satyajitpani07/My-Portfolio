@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    height: 700px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background-color: rgb(57, 61, 61);
+    color: white;
+}
+.part1 {
+    color: orangered;
+    display: flex;
+    
+}
+.part1 span{
+    color: white;
+}
+.part2{
+    display: flex;
+   
+}
+.part2 a{
+    color: white;
+    text-decoration: none;
+    font-size:20px ;
+    font-weight: bold;
+}
+.part2 a{
+    padding-left: 30px;
+}
+.part2 a:hover{
+    cursor: pointer;
+    color: orangered;
+    text-decoration: underline;
+}
+.part3 button{
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+    border: none;
+}
+.part3 button:hover{
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 90px;
+    padding-top: 90px;
+    
+}
+.containt1 span{
+    color: orangered;
+}
+.containt1,.containt2{
+    width: 500px;
+
+}
+.containt1 button{
+    height:35px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+}
+#btn1{
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
+#btn2{
+    background-color: orangered;
+    color: white;
+}
+#btn2,#btn1:hover{
+    cursor:pointer;
+}
+.containt2 img{
+   
+    height: 400px;
+    width: 400px;
+    border-radius: 70%;
+}
+section{
+    height: 600px;
+    background-color: rgb(74, 72, 72);
+
+}
+.details{
+    height: 350px;
+    width: 500px;
+    background-color:white ;
+    padding-left: 380px;
+    padding-top:120px;
+    background-color: rgb(74, 72, 72);
+    text-align: center;
+}
+.details h3{
+    font-size:35px ;
+    color: white;
+}
+.details h3 span{
+    color: orangered;
+}
+#sss{
+    
+    height: 35px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+#Message{
+    border: none;
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 6px;
+    
+}
+#bttn{
+    margin-top: 20px;
+    height: 30px;
+    width: 120px;
+    border-radius: 3px;
+    border: none;
+}
+#bttn:hover{
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+}
+footer{
+    padding: 10px 0px;
+    height: 130px;
+    background-color:white;
+    text-align: center;
+}
+footer img:hover {
+cursor: pointer;
+
+}
+.ft{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    padding:18px 420px;
+}
+.ft h5:hover{
+    cursor: pointer;
+    color: orangered;
+}
